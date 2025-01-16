@@ -1,0 +1,16 @@
+{% extends 'testapp/base.html' %}
+
+{% block title %}Employee Details{% endblock %}
+
+{% block body_block %}
+    <div class="container mt-4">
+        <h1>Employee Details</h1>
+        <p><strong>Employee Number:</strong> {{ employee.eno }}</p>
+        <p><strong>Employee Name:</strong> {{ employee.ename }}</p>
+        <p><strong>Employee Salary:</strong> ₹{{ employee.esal }}</p>
+        <p><strong>Employee Address:</strong> {{ employee.eaddr }}</p>
+        <!-- Add more details as needed -->
+        <a class="btn btn-primary" href="/update/{{ employee.id }}">Edit</a>
+        <a class="btn btn-secondary" href="/delete/{{ employee.id }}">Delete</a>
+    </div>
+{% endblock %}

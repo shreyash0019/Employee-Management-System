@@ -1,0 +1,174 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar customizations */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+    padding: 15px 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-toggler-icon {
+    filter: invert(0); /* Keeps the toggler icon black for white background */
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #f8f9fa; /* Light gray background on hover */
+    color: #007bff; /* Blue text on hover */
+    border-radius: 4px;
+}
+
+
+/* Container styling for all pages */
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Title and form heading styles */
+h1 {
+    font-size: 24px;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Input field and label styles */
+input[type="text"], input[type="number"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Button styles */
+.btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Custom button colors for different actions */
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+/* Table styling for Employee List */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #dee2e6;
+    font-size: 14px;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+    font-size: 16px;
+}
+
+.table td {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Spacing between buttons in table */
+.table td .btn {
+    margin: 5px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 768px) {
+    .navbar .navbar-nav {
+        text-align: center;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .table th, .table td {
+        font-size: 12px;
+    }
+}
