@@ -30,7 +30,6 @@ Employee-Management-System/
 │   │   ├── views.py             # Views for handling requests
 │   │   ├── forms.py             # Forms for employee data
 │   │   └── urls.py              # Application-specific URLs
-│   ├── db.sqlite3               # SQLite database
 │   ├── manage.py                # Django management script
 │   └── populate.py              # Script to populate the database with sample data
 ```
