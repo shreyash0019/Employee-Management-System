@@ -104,9 +104,6 @@ Employee-Management-System/
 - Export employee data as CSV/Excel
 - Deploy on cloud platforms (AWS/GCP)
 
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
